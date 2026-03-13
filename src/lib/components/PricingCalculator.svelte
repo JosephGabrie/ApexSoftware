@@ -138,12 +138,11 @@
         <div
             class="bg-white rounded-2xl shadow-xl overflow-hidden border border-fields-200/60"
         >
+            <!-- 
             <div class="grid md:grid-cols-[1fr_280px]">
-                <!-- Feature Picker -->
                 <div
                     class="p-8 md:p-10 space-y-6 border-b md:border-b-0 md:border-r border-fields-100"
                 >
-                    <!-- Project type tabs -->
                     <div>
                         <p
                             class="text-xs font-bold text-fields-400 uppercase tracking-widest mb-3"
@@ -173,7 +172,6 @@
                     </div>
 
                     {#if projectType === "simple"}
-                        <!-- Simple web preset info -->
                         <div
                             class="bg-fields-50 border-2 border-fields-200 rounded-xl p-5 space-y-3"
                         >
@@ -216,7 +214,6 @@
                             </p>
                         </div>
                     {:else if projectType === "custom"}
-                        <!-- Custom feature grid -->
                         <div>
                             <p
                                 class="text-xs font-bold text-fields-400 uppercase tracking-widest mb-3"
@@ -274,7 +271,6 @@
                             </div>
                         </div>
                     {:else}
-                        <!-- Other: free text -->
                         <div>
                             <p
                                 class="text-xs font-bold text-fields-400 uppercase tracking-widest mb-3"
@@ -295,7 +291,6 @@
                     {/if}
                 </div>
 
-                <!-- Summary Panel -->
                 <div
                     class="p-8 md:p-10 flex flex-col justify-between bg-fields-700"
                 >
@@ -307,7 +302,6 @@
                         </p>
 
                         {#if projectType === "other"}
-                            <!-- Other mode summary -->
                             <div class="text-center mb-8">
                                 <div class="text-5xl mb-3">💬</div>
                                 <p class="text-white font-bold text-lg">
@@ -322,7 +316,6 @@
                                 </p>
                             </div>
                         {:else}
-                            <!-- Feature count display -->
                             <div class="text-center mb-8">
                                 <div
                                     class="text-7xl font-black text-white leading-none"
@@ -338,7 +331,6 @@
                                 </div>
                             </div>
 
-                            <!-- Complexity bar -->
                             <div class="mb-6">
                                 <div
                                     class="flex justify-between text-xs font-semibold mb-2"
@@ -368,7 +360,6 @@
                                 </div>
                             </div>
 
-                            <!-- Selected features list -->
                             {#if count > 0}
                                 <div
                                     class="space-y-1.5 mb-6 max-h-48 overflow-y-auto pr-1"
@@ -401,6 +392,35 @@
                             We'll respond within 24 hours.
                         </p>
                     </div>
+                </div>
+            </div>
+            -->
+
+            <!-- Generalized Form -->
+            <div class="p-8 md:p-12 flex flex-col items-center">
+                <div class="w-full max-w-3xl text-center space-y-6">
+                    <p
+                        class="text-sm font-bold text-fields-400 uppercase tracking-widest mb-2"
+                    >
+                        Tell us about your needs
+                    </p>
+                    <textarea
+                        bind:value={otherDescription}
+                        placeholder="Describe the problem you are facing or the result you want to achieve..."
+                        rows="6"
+                        class="w-full rounded-xl border-2 border-fields-200 bg-fields-50 p-4 font-medium text-fields-700 placeholder-fields-400 focus:border-fields-500 focus:outline-none resize-none transition-colors"
+                    ></textarea>
+
+                    <a
+                        href="#contact"
+                        class="inline-block mt-4 py-4 px-10 bg-fields-accent text-fields-700 font-bold rounded-xl shadow-lg hover:bg-fields-orange hover:text-white transition-all hover:-translate-y-1 active:scale-[0.98] text-lg"
+                    >
+                        Request Estimate
+                    </a>
+                    <p class="text-xs text-fields-400 mt-4">
+                        We'll respond within 24 hours to schedule a
+                        consultation.
+                    </p>
                 </div>
             </div>
         </div>

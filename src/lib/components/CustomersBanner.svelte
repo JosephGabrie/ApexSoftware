@@ -1,9 +1,5 @@
 <script lang="ts">
-    const customers = [
-        "Texas Children's Hospital",
-        "Stanford University",
-        "Mayo Clinic",
-    ];
+    const customers = ["DialysisDeHonduras", "NVdesigns", "MTVSchools"];
 
     // Create a duplicated list for seamless looping
     const duplicatedCustomers = [...customers, ...customers];
@@ -12,7 +8,8 @@
 <section id="clients" class="overflow-hidden bg-gray-50 py-16 sm:py-24">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
         <h2 class="text-lg font-semibold leading-8 text-gray-600">
-            Trusted by leading healthcare and education institutions
+            Trusted freelance company delivering high-quality web development
+            and software solutions for your projects
         </h2>
     </div>
 

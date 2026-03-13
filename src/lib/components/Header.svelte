@@ -8,7 +8,9 @@
       <!-- Logo -->
       <div class="flex-shrink-0">
         <a href="/" class="flex items-center gap-2">
-          <div class="grid h-8 w-8 place-items-center rounded bg-fields-accent text-fields-700 font-bold">
+          <div
+            class="grid h-8 w-8 place-items-center rounded bg-fields-accent text-fields-700 font-bold"
+          >
             A
           </div>
           <span class="text-xl font-bold tracking-tight text-white">
@@ -20,15 +22,23 @@
       <!-- Desktop Nav & CTA -->
       <div class="flex items-center gap-8">
         <nav class="hidden md:flex gap-6">
-          <a href="#servicios" class="text-sm font-medium text-fields-200 transition hover:text-white">Servicios</a>
-          <a href="#clientes" class="text-sm font-medium text-fields-200 transition hover:text-white">Clientes</a>
+          <a
+            href="#services"
+            class="text-sm font-medium text-fields-200 transition hover:text-white"
+            >Services</a
+          >
+          <a
+            href="#clients"
+            class="text-sm font-medium text-fields-200 transition hover:text-white"
+            >Clients</a
+          >
         </nav>
-        
-        <a 
-          href="#contacto" 
+
+        <a
+          href="#contact"
           class="inline-flex items-center justify-center rounded-md bg-fields-accent px-5 py-2.5 text-sm font-medium text-fields-700 shadow-sm transition hover:bg-fields-orange hover:shadow-md active:scale-95"
         >
-          Contáctanos
+          Contact Us
         </a>
       </div>
     </div>

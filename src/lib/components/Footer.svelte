@@ -19,15 +19,15 @@
             </div>
 
             <p class="text-center text-sm leading-5 text-fields-300">
-                &copy; {currentYear} Apex Software. Todos los derechos reservados.
+                &copy; {currentYear} Apex Software. All rights reserved.
             </p>
 
             <div class="flex gap-4 text-sm text-fields-300">
-                <a href="#privacidad" class="transition hover:text-fields-accent"
-                    >Privacidad</a
+                <a href="#privacy" class="transition hover:text-fields-accent"
+                    >Privacy Policy</a
                 >
-                <a href="#terminos" class="transition hover:text-fields-accent"
-                    >Términos</a
+                <a href="#terms" class="transition hover:text-fields-accent"
+                    >Terms of Service</a
                 >
             </div>
         </div>

@@ -1,14 +1,18 @@
 <script lang="ts">
-    const customers = ["Dialysis de Honduras", "Toy and More", "NVDesignsTX"];
+    const customers = [
+        "Texas Children's Hospital",
+        "Stanford University",
+        "Mayo Clinic",
+    ];
 
     // Create a duplicated list for seamless looping
     const duplicatedCustomers = [...customers, ...customers];
 </script>
 
-<section id="clientes" class="overflow-hidden bg-gray-50 py-16 sm:py-24">
+<section id="clients" class="overflow-hidden bg-gray-50 py-16 sm:py-24">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
         <h2 class="text-lg font-semibold leading-8 text-gray-600">
-            Confían en nosotros las mejores empresas de Latinoamérica
+            Trusted by leading healthcare and education institutions
         </h2>
     </div>
 
